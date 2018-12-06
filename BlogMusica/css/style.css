@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* Jairo Centeno: 30/10/2018 */
+
+
+/* PPra dispositivos medianos*/
+@media (max-width: 991px) {
+	.busqueda {
+		display: none;
+	}
+	
+	.contenido {
+		margin: 5px 10px;
+	}
+	
+	.logo-img {
+		margin: 0px 10px;
+		text-align: center;
+	}
+	
+	.redes-sociales {
+		text-align: center;
+	}
+}
+
+/* Para dispositivos grandes*/
+@media (min-width: 991px) {	
+	.redes-sociales {
+		text-align: right;
+	}
+	
+	.logo-img {
+		text-align: left;
+	}
+}
+
+/* Estilos al logo */
+.logo-img img {
+	height: 200px;
+}
+
+/* Estilos a los Iconos Sociales*/
+.social-img {
+	border-radius: 10px;
+}
+
+/* Estilos al contenido*/
+.img-formulario {
+	width: 30px;
+	border-radius: 5px;
+}
